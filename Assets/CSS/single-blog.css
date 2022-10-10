@@ -1,0 +1,102 @@
+h1, h2, h3, h4, h5, h6, body{
+    font-family: 'Nunito_regular';
+}
+p {
+    text-align: justify;
+}
+section.body-section.container {
+    padding: 52px 0px;
+    width: 1080px;
+}   
+
+/* title section */
+section.title-section h1 {
+    font-size: 42px;
+    color: #29267E;
+    font-weight: 600;
+}
+section.title-section {
+    margin-top: 120px;
+}
+.title-section h1, .title-section p{
+    text-align: center;
+}
+div.titleimgblock {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.title-section p {
+    color: #c1c1c1;
+    font-size: 16px;
+}
+.title-section span {
+    color: #ec1c24;
+    font-size: 16px;
+}
+.title-section span:nth-child(1) {
+    margin-right: 20px;
+}
+.titleimgblock img {
+    width: 100%;
+}
+
+.heading-para p{
+    font-size: 18px !important;
+}
+
+/* body container starts here*/
+.keyword-highlighter, .content-para span{ 
+    color:#ec1c24;
+
+}
+#toc-container {
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    display: table;
+    margin-bottom: 1em;
+    padding: 10px;
+    position: relative;
+    width: auto;
+    width: 100%;
+}
+.ez-title {
+    color: var(--black-color);
+    line-height: 32px !important;
+    font-size: 20px !important;
+    font-weight: 400;
+}
+li.toc-heading a {
+    color: #29267E;
+    text-decoration: none;
+}
+li.toc-heading a:hover {
+    color: #ec1c24;
+}
+li.toc-heading {
+    list-style: decimal;
+    line-height: 1.8;
+}
+
+/* content block */
+.content-para p {
+    font-size: 18px;
+}
+.content-para h4 {
+    font-size: 18px;
+    padding-top: 1rem;
+    color: blue;
+}
+.content-para h3 {
+    font-size: 28px;
+    color: #29267E;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 640px) {
+    section.body-section.container{
+        width: fit-content;
+    }
+}

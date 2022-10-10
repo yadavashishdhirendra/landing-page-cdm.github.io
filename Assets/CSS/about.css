@@ -1,0 +1,1016 @@
+@font-face {
+    font-family: "Noto_Serif_SC";
+    src: url("../Fonts/NotoSerifSC-Bold.otf");
+}
+
+@font-face {
+    font-family: "Noto_Serif_SC_Medium";
+    src: url("../Fonts/NotoSerifSC-Medium.otf");
+}
+
+
+@font-face {
+    font-family: "Nunito_Bold";
+    src: url("../Fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Nunito_SemiBold";
+    src: url("../Fonts/Nunito-SemiBold.ttf");
+}
+
+
+@font-face {
+    font-family: "Nunito_ExtraBold";
+    src: url("../Fonts/Nunito-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Nunito_Medium";
+    src: url("../Fonts/Nunito-Medium.ttf");
+}
+
+
+@font-face {
+    font-family: "Nunito_regular";
+    src: url("../Fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Raleway_regular";
+    src: url("../Fonts/Raleway-Regular.ttf");
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 0px;
+    background-color: #F5F5F5;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #29267E;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    background-color: #FFFF;
+}
+
+.banner-about-us {
+    background-image: linear-gradient(to left, rgb(0 0 0 / 73%) 0%, rgb(0 0 0 / 61%) 5%, rgb(0 0 0 / 57%) 100%), url(https://www.enilon.com/wp-content/themes/enilon/images/home-2020-june/digital-hero.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text>h1 {
+    font-size: 42px;
+    color: #fff;
+    font-family: 'Noto_Serif_SC';
+}
+
+
+/* text container about us starts here */
+.text-content-about {
+    padding: 20px 20px 40px 20px;
+}
+
+.text-content-about>.container>p {
+    text-align: center;
+    font-family: 'Nunito_regular';
+    color: #000;
+    font-size: 18px;
+    line-height: 1.6195;
+    max-width: 810px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.text-box-about-banner {
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%); */
+    /* background-color: white; */
+    margin-top: 3rem;
+    padding: 40px 40px 40px 40px;
+}
+
+.banner-about-us>.container>div>p {
+    font-family: 'Nunito_regular';
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6195;
+}
+
+/* text container about us ends here */
+
+/* grid component starts here */
+.grid-section {
+    padding: 0px 20px 40px 20px;
+}
+
+.grid-content-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box>img {
+    width: 100px;
+}
+
+.box>p:nth-child(2) {
+    margin-top: 1rem;
+    color: #29267E;
+    font-size: 18px;
+    font-family: 'Nunito_Bold';
+    margin-bottom: 0.5rem;
+}
+
+.box>p:nth-child(3) {
+    font-size: 16px;
+    font-family: 'Nunito_regular';
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-group>a>button {
+    font-size: 14px;
+    font-family: "Nunito_ExtraBold";
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.8em 2em;
+    background-color: #ec1c24;
+    border: 1px solid #ec1c24;
+    color: white;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all 0.2s;
+}
+
+.button-group>a>button:hover {
+    background-color: #FFFF;
+    border: 1px solid #29267E;
+    color: #29267E;
+}
+
+.button-group>button:nth-child(2) {
+    font-size: 14px;
+    font-family: "Nunito_ExtraBold";
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.8em 2em;
+    background-color: white;
+    color: #29267E;
+    transition: all 0.2s ease-out;
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1.5px solid #29267E;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.button-group>button:nth-child(2):hover {
+    background-color: #29267E;
+    color: #ffff;
+    border: 1.5px solid #29267E;
+}
+
+@media screen and (max-width: 640px) {
+    .text-content-about>.container>p br {
+        display: none;
+    }
+
+    .banner-about-us {
+        background-image: linear-gradient(to left, rgb(0 0 0 / 50%) 0%, rgb(0 0 0 / 63%) 5%, rgb(0 0 0 / 86%) 100%), url(https://www.enilon.com/wp-content/themes/enilon/images/home-2020-june/digital-hero.jpg);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .grid-content-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .text-content-about>.container>p {
+        font-size: 16px;
+    }
+
+    .text-content-about {
+        padding: 20px 10px 40px 10px;
+    }
+}
+
+/* grid component ends here */
+
+/* mid banner component starts here */
+.mid-banner {
+    background-color: #29267E;
+    padding: 40px 20px 40px 20px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.banner-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.banner-grid-container>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.banner-grid-container>div>h2 {
+    font-size: 34px;
+    color: white;
+    font-family: 'Noto_Serif_SC';
+    line-height: 1.3195;
+}
+
+.banner-grid-container>div>h2>span {
+    background: linear-gradient(to top, #4E5BA5 35%, transparent 25%);
+}
+
+.banner-grid-container>div>p {
+    color: white;
+    font-family: 'Nunito_regular';
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.banner-grid-container>div>img {
+    width: 100%;
+}
+
+.btn-lear-more>a>button {
+    background-color: #ec1c24;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    font-family: 'Nunito_ExtraBold';
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media screen and (max-width: 1080px) {
+    .banner-grid-container>div>h2 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .banner-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-text-section {
+        padding: 30px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner-grid-container>div {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .mid-banner {
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+
+    .mid-banner {
+        padding: 40px 10px 40px 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .button-group {
+        flex-direction: column;
+    }
+
+    .banner-grid-container>div>h2 {
+        font-size: 32px;
+    }
+}
+
+/* mid banner component ends here */
+
+/* card text component starts here */
+.card-text-section {
+    padding: 30px 0px 40px;
+}
+
+.card-text-section>.container>h3 {
+    font-family: 'Noto_Serif_SC_Medium';
+    font-size: 32px;
+    color: #29267E;
+    text-align: center;
+}
+
+.card-text-section>.container>p {
+    font-family: 'Nunito_regular';
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.grid-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.grid-cards-container>div {
+    height: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-cards-container>div>img {
+    width: 45%;
+    border: 2px solid #ffd9d9;
+    border-radius: 20px;
+}
+
+.grid-cards-container>div>p:nth-child(2) {
+    margin-top: 1rem;
+    color: #29267E;
+    font-size: 17px;
+    font-family: 'Nunito_Bold';
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.grid-cards-container>div>p:nth-child(3) {
+    margin-top: 0rem;
+    font-size: 14px;
+    font-family: 'Nunito_regular';
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+
+    .card-text-section>.container>p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .grid-cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-text-section {
+        padding: 20px 10px 0px 10px;
+    }
+
+    .card-text-section>.container>h3 {
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+}
+
+/* card text component ends here */
+
+/* rocket section start here */
+.rocket-section {
+    padding: 0px 0px 0px 0px;
+    /* background-image: url('../Images/27122 [Converted]-01 (2).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right; */
+}
+
+.rocket-grid-container {
+    display: grid;
+}
+
+.rocket-grid-container>div {
+    padding: 40px 0px 40px 0px;
+}
+
+
+.rocket-grid-container>div:nth-child(2) {
+    background: linear-gradient(89.73deg, #0C57AD 64.77%, rgba(12, 87, 173, 1) 218%);
+}
+
+/* rocket section ends here */
+
+/* rocket section grid starts here */
+.rocket-flex {
+    display: grid;
+    grid-template-columns: 1.20fr 1fr;
+    column-gap: 2rem;
+}
+
+.rocket-flex>div {
+    /* border: 1px solid white; */
+}
+
+.rocket-flex>div:nth-child(1) {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.rocket-flex>div:nth-child(2) {
+    background: white;
+    /* box-shadow: 0px 0px 50px #a1a1a152; */
+    padding: 3vw;
+    height: fit-content;
+    margin-left: -6vw;
+    z-index: 1;
+    margin-top: 4vw;
+}
+
+.rocket-flex>div>img {
+    width: 100%;
+    position: relative;
+    /* border-radius: 6px; */
+}
+
+.rocket-flex>div:nth-child(2)>h3 {
+    font-family: 'Nunito_SemiBold';
+    font-size: 26px;
+    color: #2b2b2b;
+}
+
+.card-number {
+    margin: 16px 0 21px;
+    white-space: nowrap;
+}
+
+@media (max-width: 1560px) {
+    .card-number span {
+        width: 56px;
+        height: 75px;
+        font-size: 56px;
+        line-height: 75px;
+    }
+}
+
+.card-number span {
+    display: inline-block;
+    width: 64px;
+    height: 86px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: #F7941D;
+    background: -webkit-linear-gradient(180deg, #29267e 55.15%, #ec1c24 55.84%);
+    background: -moz-linear-gradient(180deg, #29267e 55.15%, #ec1c24 55.84%);
+    background: -ms-linear-gradient(180deg, #29267e 55.15%, #ec1c24 55.84%);
+    background: -o-linear-gradient(180deg, #29267e 55.15%, #ec1c24 55.84%);
+    background: linear-gradient(180deg, #29267e 55%, #ec1c24 55.55%);
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 86px;
+    text-align: center;
+    color: #F9FBFF;
+}
+
+.botton-container {
+    padding-left: 5rem;
+}
+
+.headline-discover {
+    color: #29267e;
+    font-family: 'Nunito_SemiBold';
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.input-box {
+    background-color: #FFFF;
+    border-radius: 5px;
+    margin-top: 2rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-gap: 2rem;
+    width: 50%;
+}
+
+.input-box>div>input {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #929292;
+    background: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-family: 'Raleway_regular';
+    margin-right: 10px;
+    outline: none;
+}
+
+@media screen and (max-width: 992px) {
+    .rocket-flex>div:nth-child(2) {
+        background: white;
+        /* box-shadow: 0px 0px 50px #a1a1a152; */
+        padding: initial;
+        height: fit-content;
+        margin-left: initial;
+        z-index: 1;
+        margin-top: 4vw;
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+/* rocket section grid ends here */
+
+/* card component starts here */
+.newsCard {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    color: #fff;
+    overflow: hidden;
+    /* border-radius: 6px; */
+}
+
+figure img {
+    display: block;
+    object-fit: cover !important;
+    object-position: center center !important;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    background: rgb(40, 26, 54);
+    background: -moz-linear-gradient(0deg, rgba(40, 26, 54, 1) 0%, rgba(89, 59, 116, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(40, 26, 54, 1) 0%, rgba(89, 59, 116, 0) 100%);
+    background: linear-gradient(0deg, rgba(40, 26, 54, 1) 0%, rgba(89, 59, 116, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#281a36", endColorstr="#593b74", GradientType=1);
+    display: block;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+
+.newsCaption {
+    position: absolute;
+    top: auto;
+    bottom: 29px;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    z-index: 10;
+    padding: 20px;
+    -webkit-transform: translateY(80%);
+    transform: translateY(80%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.newsCaption i {
+    font-size: 24px;
+}
+
+.newsCaption-title {
+    margin-top: 0px;
+    font-family: 'Nunito_Bold';
+    font-size: 22px;
+}
+
+.newsCaption-content>p {
+    font-size: 14px;
+    font-family: 'Nunito_regular';
+}
+
+.newsCaption-content {
+    margin: 0;
+}
+
+.newsCaption-link {
+    color: #fff;
+    text-decoration: underline;
+    opacity: .8;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+    transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.news-Slide-up:hover .overlay {
+    background: rgb(64, 10, 111);
+    background: -moz-linear-gradient(0deg, rgba(64, 10, 111, 1) 0%, rgba(89, 59, 116, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(64, 10, 111, 1) 0%, rgba(89, 59, 116, 0) 100%);
+    background: linear-gradient(0deg, rgba(64, 10, 111, 1) 0%, rgba(89, 59, 116, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#400a6f", endColorstr="#593b74", GradientType=1);
+}
+
+.news-Slide-up:hover .newsCaption {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: transform 0.4s, ;
+    transition: -webkit-transform 0.4s;
+    -moz-transition: transform 0.4s, ;
+    -ms-transition: transform 0.4s, ;
+    -o-transition: transform 0.4s, ;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    --bs-gutter-x: 0rem;
+    grid-gap: 0rem;
+}
+
+.card-content-container {
+    padding: 10px 0px 0px 0px;
+}
+
+/* card component ends here */
+
+.box>img {
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid #ffe6e6;
+}
+
+.banner-grid-container>div>img {
+    position: absolute;
+    width: 40%;
+}
+
+.cont-title>span {
+    background: linear-gradient(to top, #FFE2E2 30%, transparent 24%);
+    color: #EC1C24;
+}
+
+.card-text-section {
+    padding-top: 30px;
+}
+
+input#fname {
+    border: 2px solid #e4e4e4;
+    background: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-family: 'Raleway_regular';
+    margin-right: 10px;
+    outline: none;
+    letter-spacing: 0.5px;
+    width: 35%;
+}
+
+.factors-h2 {
+    font-family: 'Noto_Serif_SC_Medium';
+    font-size: 32px;
+    color: #29267E;
+    text-align: center;
+}
+
+.factors-h2>span {
+    background: linear-gradient(to top, #FFE2E2 30%, transparent 24%);
+    color: #EC1C24;
+}
+
+
+/* text animation code starts here */
+
+.word {
+    position: absolute;
+    opacity: 0;
+}
+
+.letter {
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+    transform: rotateX(-90deg);
+}
+
+.letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+    color: #29267E;
+}
+
+.belize {
+    color: #29267E;
+}
+
+.pomegranate {
+    color: #ff1c25;
+}
+
+/* text animation code ends here */
+.schedule-a-call {
+    width: fit-content;
+}
+
+/* RESPONSIVE CSS STARTS HERE */
+@media screen and (max-width: 1080px) {
+    .schedule-a-call {
+        width: 100%;
+    }
+
+    .rocket-flex>div:nth-child(1) {
+        justify-content: center;
+    }
+
+    .newsCard {
+        height: 500px;
+    }
+
+    .box>img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .banner-grid-container>div:nth-child(2) {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-grid-container>div:nth-child(2)>img {
+        width: 100%;
+        position: initial;
+        animation: 2s updown infinite;
+        -webkit-animation: 2s updown infinite;
+    }
+
+    @keyframes updown {
+        0% {
+            transform: translateY(0px);
+            -webkit-transform: translateY(0px);
+            -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+            -o-transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-5px);
+            -webkit-transform: translateY(-5px);
+            -moz-transform: translateY(-5px);
+            -ms-transform: translateY(-5px);
+            -o-transform: translateY(-5px);
+        }
+
+        100% {
+            transform: translateY(0px);
+            -webkit-transform: translateY(0px);
+            -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+            -o-transform: translateY(0px);
+        }
+    }
+
+    .grid-cards-container>div>img {
+        width: 150px;
+    }
+
+    .grid-cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-gap: 2rem; */
+        /* padding: 0px 20px 0px 20px; */
+    }
+
+    .col-10 {
+        flex: 0 0 auto;
+        width: 92.333333%;
+    }
+
+    .rocket-flex {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .rocket-flex>div {
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .schedule-a-call {
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        /* grid-gap: 1rem; */
+    }
+
+    .text>h1 br {
+        display: none;
+    }
+
+    .banner-about-us>.container>div>p br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text-box-about-banner {
+        /* background-color: white; */
+        padding: 40px 10px 40px 10px;
+    }
+
+    .text>h1 {
+        font-size: 34px;
+    }
+
+    .newsCard {
+        height: 400px;
+    }
+
+    .schedule-a-call {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-gap: 1rem;
+        align-items: center;
+    }
+
+    .banner-grid-container>div>h2 br {
+        display: none;
+    }
+
+    .row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .text>h1 {
+        font-size: 22px;
+    }
+
+    .grid-cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .factors-h2 {
+        margin-top: -2.5rem !important;
+        font-size: 24px;
+        margin-bottom: -1rem !important;
+    }
+
+    .grid-cards-container>div>p:nth-child(2){
+        font-size: 20px;
+    }
+
+    .box>p:nth-child(2) {
+        font-size: 22px;
+    }
+
+    .box>p:nth-child(3) {
+        font-size: 18px;
+    }
+
+    .card-number span {
+        display: inline-block;
+        width: 41px;
+        height: 66px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background: #F7941D;
+        background: -webkit-linear-gradient(180deg, #29267e 55.15%, #ec1c24 55.84%);
+        background: -moz-linear-gradient(180deg, #29267e 55.15%, #ec1c24 55.84%);
+        background: -ms-linear-gradient(180deg, #29267e 55.15%, #ec1c24 55.84%);
+        background: -o-linear-gradient(180deg, #29267e 55.15%, #ec1c24 55.84%);
+        background: linear-gradient(180deg, #29267e 55%, #ec1c24 55.55%);
+        font-family: inherit;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 62px;
+        text-align: center;
+        color: #F9FBFF;
+    }
+
+    .dropdowns {
+        width: 100%;
+    }
+
+    .banner-grid-container>div>h2 {
+        font-size: 24px;
+    }
+
+    .grid-cards-container {
+        margin-bottom: 0.5rem;
+    }
+
+    .grid-cards-container>div {
+        margin-top: 0rem;
+    }
+}
+
+/* RESPONSIVE CSS ENDS HERE */

@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>DiTech Creative & Digital Marketing</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css?ver=2.0" />
+    <link rel="stylesheet" href="./Assets/CSS/services.css?ver=2.0" />
+    <link rel="stylesheet" href="./Assets/CSS/Home.css?ver=2.0">
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./Assets/Images/cropped-logo-5-192x192.png" type="image/x-icon">
+
+    <script src="//code.tidio.co/0ckwpcmwe2hnsdagulz2u9lfmhf9ztmt.js" async></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <div id="header"></div>
+
+    <!-- Homepage Banner starts here -->
+    <section class="home-banner">
+        <div class="container-home">
+            <div class="home-banner-grid">
+                <div>
+                    <h1>You've Just Made <span class="color-change">The Right Choice! </span>
+                    </h1>
+                    <p>Bringing your business online is the need of the hour. DiTech CDM can help you tap into the
+                        digital revolution by making you digital-ready. We plug in the master of Website Designing and
+                        Digital Marketing solutions to create your Brand’s personality.
+                    </p>
+
+                    <div class="schedule-a-call">
+                        <div class="dropdowns">
+                            <input class="text-box" type="text" placeholder="Hire a UI Designer" readonly>
+                            <div class="options">
+                                <div onclick="show('Hire a UI Designer')">
+                                    Hire a UI Designer
+                                </div>
+                                <div onclick="show('Get a Professional Website for my business')">
+                                    Get a Professional Website for my business
+                                </div>
+                                <div onclick="show('Develop a Custom Web Application')">
+                                    Develop a Custom Web Application
+                                </div>
+                                <div onclick="show('Develop a Mobile App')">
+                                    Develop a Mobile App
+                                </div>
+                                <div onclick="show('SEO to grow your business')">
+                                    SEO to grow your business
+                                </div>
+                                <div onclick="show('Website Maintenance')">
+                                    Website Maintenance
+                                </div>
+                                <div onclick="show('Something else...')">
+                                    Something else...
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a>
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Schedule a
+                                    call</button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- some logos goes here -->
+                    <div class="logos-grid">
+                        <div>
+                            <img src="./Assets/Images/home-page/rsz_1csim.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./Assets/Images/home-page/rsz_cybrhawk.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./Assets/Images/home-page/rsz_gayatri.png" alt="">
+                        </div>
+                    </div>
+                    <!-- some logos goes here -->
+                </div>
+                <div class="video-banner">
+                    <video loop="" muted="" autoplay="" class="banner-image mtz-vlc-odecb">
+                        <source src="./Assets/Images/home-page/Final Comp.m4v" type="video/mp4">
+                    </video>
+                    <!-- <img style="width: 100%;" src="./Assets/Images/home-page/ezgif.com-gif-maker.gif" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Banner starts here -->
+    <section class="mobile-banner-homepage">
+        <div class="mobile-banner-home">
+            <div>
+                <div class="video-banner">
+                    <!-- <img class="mobile-gif" style="width: 100%;" src="./Assets/Images/home-page/ezgif.com-gif-maker.gif" alt=""> -->
+                    <video loop="" muted="" autoplay="" class="banner-image mtz-vlc-odecb">
+                        <source src="./Assets/Images/home-page/Final Comp.m4v" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="text-home-container">
+                <h1>You've Just <span class="color-change">Made The Right Choice!</span>
+                </h1>
+                <p>Bringing your business online is the need of the hour. DiTech CDM can help you tap into the digital
+                    revolution by making you digital-ready. We plug in the master of Website Designing and Digital
+                    Marketing solutions to create your Brand’s personality.
+                </p>
+                <div class="schedule-a-call">
+                    <div class="dropdowna">
+                        <input class="text-box" type="text" placeholder="Hire a UI Designer" readonly>
+                        <div class="options">
+                            <div onclick="show('Hire a UI Designer')">
+                                Hire a UI Designer
+                            </div>
+                            <div onclick="show('Get a Professional Website for my business')">
+                                Get a Professional Website for my business
+                            </div>
+                            <div onclick="show('Develop a Custom Web Application')">
+                                Develop a Custom Web Application
+                            </div>
+                            <div onclick="show('Develop a Mobile App')">
+                                Develop a Mobile App
+                            </div>
+                            <div onclick="show('SEO to grow your business')">
+                                SEO to grow your business
+                            </div>
+                            <div onclick="show('Website Maintenance')">
+                                Website Maintenance
+                            </div>
+                            <div onclick="show('Something else...')">
+                                Something else...
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a>
+                            <button data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Schedule a
+                                call</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="logos-grid-mobile">
+                    <div>
+                        <img src="./Assets/Images/Csim.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./Assets/Images/Cybrhawk.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./Assets/Images/Gayatri.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mobile Banner ends here -->
+    <!-- Homepage Banner ends here -->
+
+    <!-- proposal cta starts here -->
+    <section>
+        <div class="proposal-banner ">
+            <div class="container">
+                <div class="container-wrap">
+                    <div>
+                        <h3>Up your growth game with our <br> <span>10X Strategy</span> </h3>
+                        <p>Don't settle with irrelevant traffic leading to disappointments. Out perform your competitors
+                            with our specialized data-tested strategy for better ranking and clicks leading up to 97%
+                            conversion. Enter your website address below for a free personalized proposal to kickstart
+                            your journey.
+                        </p>
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn accordion-btn-sec"
+                            type="submit">
+                            Start Your Project
+                        </button>
+                    </div>
+                    <div>
+                        <img src="/Assets/Images/home-page/rsz_1hand_banner_updated_2 (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- proposal cta end here -->
+
+    <!-- slider show section starts here -->
+    <section class="slider-show">
+        <div class="container inside-container-visible">
+            <h2>Our Clients Growth</h2>
+            <!-- <p>We’ve worked with a wide range of clients from local businesses to global brands. <br> Check out some of
+                our
+                projects to get a flavour of the work we’ve done – and how we can support you too.</p> -->
+        </div>
+        <div class="slideshow">
+            <div class="holder">
+                <div class="slide-1 banner-SMM">
+                    <!-- can load any text container inside this -->
+                    <main class="container slider-overlay-text">
+                        <aside class="two-blocks SMM-top">
+                            <h3>RECORDENT</h3>
+                            <p>SOCIAL MEDIA MANAGEMENT <br> WEBSITE REBRANDING</p>
+                            <aside class="grid-content SMM-grid">
+                                <aside>
+                                    <h2>72% </h2>
+                                </aside>
+                                <aside>
+                                    <p><span class="ht-element-sub">Linkedin</span><br>Best Applause Rate<br>(likes +
+                                        Hearts)</p>
+                                </aside>
+                                <aside>
+                                    <h2>75%</h2>
+                                </aside>
+                                <aside>
+                                    <p><span class="ht-element-sub">Instagram</span><br>Best Conversation
+                                        Rate<br>(Comments)</p>
+                                </aside>
+                                <aside>
+                                    <h2>46%</h2>
+                                </aside>
+                                <aside>
+                                    <p><span class="ht-element-sub">Facebook</span><br>Best Amplification
+                                        Rate<br>(Shares)</p>
+                                </aside>
+                            </aside>
+                            <!-- <button class="proposal-cta">GET MY FREE PROPOSAL</button> -->
+                        </aside>
+
+                        <aside class="two-blocks">
+                            <img src="./Assets/Images/ppc/recodant mobile.png" alt="" id="recordent-featured-banner">
+                        </aside>
+                    </main>
+                </div>
+                <div class="slide-1">
+                    <!-- can load any text container inside this -->
+                    <main class="container slider-overlay-text">
+                        <aside class="two-blocks">
+                            <h3>ARANYAM</h3>
+                            <p>WEBSITE DESIGN AND DEVELOPMENT</p>
+                            <aside class="grid-content">
+                                <aside>
+                                    <h2>4K+</h2>
+                                </aside>
+                                <aside>
+                                    <p>Confirmed online <br> orders</p>
+                                </aside>
+                                <aside>
+                                    <h2>80%</h2>
+                                </aside>
+                                <aside>
+                                    <p>Growth in organic <br> traffic</p>
+                                </aside>
+                                <aside>
+                                    <h2>5M</h2>
+                                </aside>
+                                <aside>
+                                    <p>post <br> engagement</p>
+                                </aside>
+                            </aside>
+                        </aside>
+
+                        <aside class="two-blocks">
+                            <img src="./Assets/Images/rsz_aranyam_1 (1).png" alt="" id="csim-featured-banner">
+                        </aside>
+                    </main>
+                </div>
+                <div class="slide-2">
+                    <main class="container slider-overlay-text">
+                        <aside class="two-blocks SMM-top">
+                            <h3>CANADIAN SIM</h3>
+                            <p>WEBSITE DESIGN AND DEVELOPMENT</p>
+                            <aside class="grid-content SMM-grid">
+                                <aside>
+                                    <h2>72% </h2>
+                                </aside>
+                                <aside>
+                                    <p><span class="ht-element-sub">Linkedin</span><br>Best Applause Rate<br>(likes +
+                                        Hearts)</p>
+                                </aside>
+                                <aside>
+                                    <h2>75%</h2>
+                                </aside>
+                                <aside>
+                                    <p><span class="ht-element-sub">Instagram</span><br>Best Conversation
+                                        Rate<br>(Comments)</p>
+                                </aside>
+                                <aside>
+                                    <h2>46%</h2>
+                                </aside>
+                                <aside>
+                                    <p><span class="ht-element-sub">Facebook</span><br>Best Amplification
+                                        Rate<br>(Shares)</p>
+                                </aside>
+                            </aside>
+                            <!-- <button class="proposal-cta">GET MY FREE PROPOSAL</button> -->
+                        </aside>
+
+                        <aside class="two-blocks">
+                            <img id="aranayam-img-mobile" src="./Assets/Images/Recordant (2).png" alt="">
+                        </aside>
+                    </main>
+                </div>
+
+            </div>
+            <div class="previous">
+                <div>
+                    <div class="steps">
+                        1 / 3
+                    </div>
+                    <a class="prev"><i class="fa-solid fa-arrow-left"></i> </a>
+                    <a class="next"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider show section ends here -->
+
+    <!-- accordion section starts here -->
+    <section class="home-accordion-section">
+        <div class="container">
+            <div class="home-accordion-grid">
+                <div class="left-side-fixer">
+                    <img class="left-side-panel" src="./Assets/Images/Rectangle 938.png" alt="">
+                    <div>
+                        <p>Our Services</p>
+                        <h2>Results Driven <br>
+                            <span>Digital Marketing Agency</span></h2>
+                        <p>We serve the entire spectrum of digital marketing solutions on the menu and also help you
+                            decide the right mix for achieving your marketing objectives.
+                        </p>
+                        <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn accordion-btn-sec"
+                            type="submit">
+                            Discuss Your Project
+                        </button>
+                        <p class="google-tag">
+                            <img src="/Assets/Images/home-page/google2.0 1.png" alt=""></p>
+                        <p class="rating-text">Rated 5 Star</p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p class="light-text">Read customer reviews</p>
+                    </div>
+                </div>
+                <div>
+                    <!-- accordion -->
+                    <div id="accordion" class="accordion-container">
+                        <h4 class="accordion-title js-accordion-title">Web Development
+                            <span class="span-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </h4>
+                        <div class="accordion-content">
+                            <!-- <img id="laptop-display"
+                                src="./Assets/Images/flying-laptop-mobile-tablet-3d-rendering-showing-builder-website-responsive-web-design 1.png"
+                                alt=""> -->
+                            <p>At DiTech, we professionally design, redesign, and continuously support customer-facing
+                                and enterprise web apps to achieve high conversion rates. The way people interact online
+                                with businesses and brands has dramatically changed over the last few years.Web
+                                development services help create all types of web-based software and ensure great
+                                experiences for web users.
+                            </p>
+                            <a href="/Web-Services.html">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <h4 class="accordion-title js-accordion-title">Search Engine Optimization
+                            <span class="span-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </h4>
+                        <div class="accordion-content">
+                            <!-- <img id="laptop-display" src="./Assets/Images/home-page/search bar 33.png" alt=""> -->
+                            <p>Our industry-experienced SEO team at DiTech CDM can help you implement and maintain an
+                                SEO strategy, as well as track and monitor your organic search performance. The best
+                                part? You get more time in your day to focus on the projects that need your attention.
+                                With our search engine optimization services, you get a custom strategy and world-class
+                                technology.
+                            </p>
+                            <a href="/SEO.html">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <h4 class="accordion-title js-accordion-title">Social Media Management
+                            <span class="span-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </h4>
+                        <div class="accordion-content">
+                            <!-- <img id="laptop-display" src="./Assets/Images/home-page/mobile.png" alt=""> -->
+                            <p>If you thought Social Media was meant for consumer centric brands only, think again!
+                                Social media can help dramatically boost your brand awareness, increase website traffic,
+                                and feed your hungry sales team with a large number of leads, creating a fat sales
+                                pipeline for your business.
+                                Our SMM team at DiTech CDM promotes your brand by infusing informative content,
+                                appealing web design coupled with the best social media marketing strategy.
+                            </p>
+                            <a href="/SMM.html">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <h4 class="accordion-title js-accordion-title">Content Marketing
+                            <span class="span-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </h4>
+                        <div class="accordion-content">
+                            <!-- <img id="laptop-display" src="./Assets/Images/home-page/creativve.png" alt=""> -->
+                            <p>Our content writers know Search Engine Optimization and create great marketing copy,
+                                designed to be informative and compelling, pushing your business objectives.
+                            </p>
+                            <a href="/Content-Marketing.html">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <h4 class="accordion-title js-accordion-title" id="last-content">Pay Per Click - PPC
+                            <span class="span-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </h4>
+                        <div class="accordion-content">
+                            <!-- <img id="laptop-display" src="./Assets/Images/home-page/pcc-icon.png" alt=""> -->
+                            <p>Today, the digital landscape keeps growing and websites are proliferating at jet speed.
+                                From small companies and franchises to eCommerce businesses and entrepreneurs, almost
+                                everyone is on the Internet, figuring out advertising strategies and maximizing all
+                                possible conversion paths. The digital marketing tides are shifting, and many companies
+                                are looking for fast, effective ways to position their brands in front of
+                                high-converting customers. Increase your search engine visibility and get immediate
+                                results with DiTech’s PPC management services.
+                            </p>
+                            <a href="/PPC.html">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- accordion -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- accordion section ends here -->
+
+
+    <!-- our blogs section starts here -->
+    <section class="our-blogs">
+        <div class="container">
+            <p>Our Blogs</p>
+            <h3>Digital Marketing Insights
+            </h3>
+            <div class="blogs-grid">
+                <div>
+                    <div>
+                        <figure>
+                            <img src="./Assets/Images/Blogs/WhatsApp Image 2022-10-02 at 21.01.12.jpeg" />
+                        </figure>
+                        <img src="./Assets/Images/Blogs/WhatsApp Image 2022-10-02 at 20.57.35-modified.png" alt="">
+                    </div>
+                    <a href="how-is-content-marketing-important-for-seo.html">
+                        <p>Why Content Marketing is Important for SEO</p>
+                    </a>
+                </div>
+                <div>
+                    <div>
+                        <figure>
+                            <img src="./Assets/Images/Blogs/WhatsApp Image 2022-10-02 at 21.03.00.jpeg" />
+                        </figure>
+                        <img src="./Assets/Images/Blogs/WhatsApp Image 2022-10-02 at 20.57.35-modified.png" alt="">
+                    </div>
+                    <a href="why-does-your-business-needs-digital-marketing.html">
+                        <p>Why Does Your Business Need Digital Marketing?</p>
+                    </a>
+                </div>
+                <div>
+                    <div>
+                        <figure>
+                            <img src="./Assets/Images/Blogs/WhatsApp Image 2022-10-02 at 21.06.23.jpeg" />
+                        </figure>
+                        <img src="./Assets/Images/Blogs/WhatsApp Image 2022-10-02 at 20.57.35-modified.png" alt="">
+                    </div>
+                    <a href="how-is-social-media-helpful-in-brand-building.html">
+                        <p>Important Role of Social Media in Brand Building
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="center-btn">
+                <button class="btn accordion-btn-sec" type="submit">
+                    View all posts
+                </button>
+            </div> -->
+        </div>
+    </section>
+    <!-- our blogs section ends here -->
+
+    <!-- let's develop something awesome together starts here -->
+    <!-- <section class="let-s-develop">
+        <img src="./Assets/Images/Ellipse 33.png" alt="">
+        <img src="./Assets/Images/Ellipse 34.png" alt="">
+        <div class="container develop-center">
+            <h2>Lets develop something awesome together.</h2>
+            <p>No matter the client, the project, or its scope, it all starts with our tried and tested strategy
+                (hey, if
+                it’s not broke, don’t fix it, right?). We’ve used our years of experience to understand every step
+                that is
+                needed to ensure we smash every project out of the park – no matter how big or small.
+            </p>
+            <button class="btn" type="submit">
+                <i class="fa-solid fa-paper-plane"></i> <span>How much does my website cost</span>
+            </button>
+        </div>
+    </section> -->
+    <!-- let's develop something awesome together ends here -->
+
+    <!-- let's connect to discuss section starts here -->
+    <section class="outter option1">
+        <section class="video-container">
+            <video src="./Assets/Images/Comp 2.mp4" autoplay loop playsinline muted></video>
+            <div class="callout">
+                <h2>Our Business Is To Grow Your Business</h2>
+                <p>Our reputation for providing cutting-edge, effective digital marketing services speaks for itself. We
+                    are committed to providing top-tier services to startups and emerging businesses in Mumbai and
+                    beyond with the individualized attention they deserve. We have a creative digital marketing team
+                    that can understand your customers' minds and the search engines.</p>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn let-sbtn" type="submit">
+                    <i class="fa-solid fa-paper-plane"></i> <span>How much does my website cost</span>
+                </button>
+            </div>
+        </section>
+    </section>
+    <!-- let's connect to discuss section ends here -->
+
+    <!-- footer component starts here -->
+    <div id="footer"></div>
+    <!-- footer component ends here -->
+
+    <div id="Timer"></div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Start Your Project!</h5>
+                    <p>Let’s build something awesome together.</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                    <script>
+                        hbspt.forms.create({
+                            region: "na1",
+                            portalId: "22676251",
+                            formId: "dcfd792b-3f9a-4a76-98b9-448111442c56",
+                            version: "V2_PRERELEASE"
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Packages -->
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+        <div class="modal-dialog" id="offer-modal">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Let's Grow <span class="three-x">Together</span>
+                    </h5>
+                    <p>Request a FREE Call!</p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> -->
+                <div class="modal-body" id="offers-moda">
+                    <div class="grider-modal">
+                        <div class="grid-img">
+                            <img src="./Assets/Images/diwali-offer2 copy.jpg" alt="">
+                        </div>
+                        <div class="form-offer">
+                            <h3>Let's Grow Together!</h3>
+                            <p>Request a FREE Call!</p>
+                            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                            <script>
+                                hbspt.forms.create({
+                                    region: "na1",
+                                    portalId: "22676251",
+                                    formId: "a530f086-04b0-47aa-b3b5-3b85249a7ab8",
+                                    version: "V2_PRERELEASE"
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./Assets/JS/Include.js"></script>
+    <script src="./Assets/JS/Accordion.js"></script>
+    <script src="./Assets/JS/SlideShow.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="./Assets/JS/Schedule-Script.js?ver=1.0"></script>
+
+    <script>
+        $(window).on('load', function () { // makes sure the whole site is loaded 
+            $('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({
+                'overflow-x': 'hidden'
+            });
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,525 @@
+@font-face {
+    font-family: "Noto_Serif_SC";
+    src: url("../Fonts/NotoSerifSC-Bold.otf");
+}
+
+@font-face {
+    font-family: "Noto_Serif_SC_Medium";
+    src: url("../Fonts/NotoSerifSC-Medium.otf");
+}
+
+
+@font-face {
+    font-family: "Nunito_Bold";
+    src: url("../Fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Nunito_SemiBold";
+    src: url("../Fonts/Nunito-SemiBold.ttf");
+}
+
+
+@font-face {
+    font-family: "Nunito_ExtraBold";
+    src: url("../Fonts/Nunito-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Nunito_Medium";
+    src: url("../Fonts/Nunito-Medium.ttf");
+}
+
+
+@font-face {
+    font-family: "Nunito_regular";
+    src: url("../Fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Raleway_regular";
+    src: url("../Fonts/Raleway-Regular.ttf");
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 0px;
+    background-color: #FFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #29267E;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.case-study-banner {
+    padding: 140px 0px 80px 0px;
+    background-color: white;
+    position: relative;
+    top: 0;
+}
+
+.case-study-banner>.container>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-study-banner>.container>div>img {
+    width: 55%;
+}
+
+.case-study-banner>img:nth-child(1) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.case-study-banner>img:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.header-container>h1 {
+    margin-top: 2rem;
+    font-family: 'Noto_Serif_SC';
+    font-size: 38px;
+    color: #29267E;
+}
+
+.header-container>h1>.color-red {
+    color: #EE3840;
+}
+
+.header-container>h1>.lead-highlight {
+    background: linear-gradient(to top, #FFE2E2 30%, transparent 24%);
+}
+
+/* hero banner ends here */
+
+/* the brief section starts here */
+.brief-container-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2rem;
+}
+
+.brief-container-grid>div {
+    padding: 20px 20px 20px 20px;
+}
+
+.brief-section {
+    background-color: #FFFF;
+}
+
+.brief-container-grid>div>p:nth-child(1)::before {
+    content: "";
+    width: 45px;
+    height: 4px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate;
+    -moz-transform: rotateX(20deg);
+    -ms-transform: rotateX(20deg);
+    -o-transform: rotateX(20deg);
+    position: absolute;
+    top: 15px;
+    background-color: #EE3840;
+    left: -60px;
+}
+
+.brief-container-grid>div>p:nth-child(1) {
+    font-family: 'Nunito_SemiBold';
+    font-size: 22px;
+    color: #29267E;
+    position: relative;
+    top: 0;
+}
+
+.brief-container-grid>div>p {
+    font-family: 'Nunito_regular';
+    font-size: 18px;
+}
+
+.headline-aside>p:nth-child(1) {
+    font-size: 16px;
+    font-family: 'Nunito_Bold';
+    text-transform: uppercase;
+    color: #29267E;
+}
+
+.headline-aside {
+    margin-bottom: 2.5rem;
+}
+
+.headline-aside>p:nth-child(2) {
+    font-size: 14px;
+    font-family: 'Nunito_regular';
+    text-transform: capitalize;
+    color: #29267E;
+}
+
+@media screen and (max-width:992px) {
+    .brief-container-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .brief-container-grid>div>p:nth-child(1)::before {
+        width: 25px;
+        left: -35px;
+    }
+
+    .case-study-banner>.container>div>img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-container>h1 {
+        font-size: 26px;
+    }
+
+    .brief-container-grid>div {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .brief-container-grid>div>p:nth-child(1)::before {
+        width: 17px;
+        left: -21px;
+    }
+}
+
+/* the brief section ends here */
+
+/* image chipper section starts here */
+.image-chipper {
+    background-color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+.image-chipper>.container>img {
+    width: 100%;
+}
+
+.print {
+    padding-bottom: 3rem;
+}
+
+.text-content {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    top: -100px;
+}
+
+.text-content>h2 {
+    font-size: 42px;
+    margin-bottom: 2rem;
+    font-family: 'Nunito_Medium';
+}
+
+.text-content>p {
+    text-align: justify;
+    font-family: 'Nunito_SemiBold';
+    font-size: 22px;
+    color: #29267E;
+}
+
+.text-content>div>p {
+    text-align: justify;
+    font-family: 'Nunito_regular';
+    font-size: 18px;
+}
+
+.branding::before {
+    content: "";
+    width: 45px;
+    height: 4px;
+    top: 147px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate;
+    -moz-transform: rotateX(20deg);
+    -ms-transform: rotateX(20deg);
+    -o-transform: rotateX(20deg);
+    position: absolute;
+    background-color: #EE3840;
+    left: -60px;
+}
+
+@media screen and (max-width: 992px) {
+    .text-content {
+        top: -40px;
+    }
+
+    .branding::before {
+        display: none;
+    }
+
+    .brief-container-grid {
+        grid-gap: 0rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .text-content>h2 {
+        font-size: 28px;
+    }
+
+    .text-content {
+        top: -20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .text-content>div>p {
+        text-align: left;
+    }
+}
+
+/* image chipper section ends here */
+
+/* grid image gallery section starts here */
+.print-design {
+    width: 100%;
+}
+
+.print-design-section {
+    background-color: white;
+}
+
+.print-design-text-container>p {
+    font-family: 'Nunito_SemiBold';
+    font-size: 22px;
+    color: #29267E;
+    position: relative;
+    top: 0;
+}
+
+.print-design-text-container>p:nth-child(1):before {
+    content: "";
+    width: 45px;
+    height: 4px;
+    top: 15px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate;
+    -moz-transform: rotateX(20deg);
+    -ms-transform: rotateX(20deg);
+    -o-transform: rotateX(20deg);
+    position: absolute;
+    background-color: #EE3840;
+    left: -60px;
+}
+
+.print-design-text-container {
+    max-width: 800px;
+    margin: 40px auto 0px auto;
+}
+
+.another-text>p {
+    text-align: justify;
+    font-family: 'Nunito_regular';
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .print-design-text-container {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .print-design-text-container>p:nth-child(1):before {
+        width: 15px;
+        left: -21px;
+    }
+
+    .text-content>div>p {
+        font-size: 16px;
+    }
+
+    .another-text>p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .brief-container-grid>div>p {
+        font-size: 16px;
+    }
+}
+
+/* grid image gallery section ends here */
+
+/* conclusion section starts here */
+.conclusion-img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
+.conclusion-img-grid>div {
+    padding: 20px 20px 20px 20px;
+}
+
+.conclusion-section {
+    padding: 40px 0px 40px 0px;
+    background-color: white;
+}
+
+.conclusion-img-grid>div>img {
+    width: 100%;
+}
+
+.grid-flexbox {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.grid-flexbox>div>img {
+    width: 100%;
+}
+
+.last-item {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.conclusion-content {
+    margin-top: 2rem;
+}
+
+.conclusion-content>p {
+    font-family: 'Nunito_SemiBold';
+    font-size: 22px;
+    color: #29267E;
+    position: relative;
+    top: 0;
+}
+
+.conclusion-content>p::before {
+    content: "";
+    width: 45px;
+    height: 4px;
+    top: 15px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate;
+    -moz-transform: rotateX(20deg);
+    -ms-transform: rotateX(20deg);
+    -o-transform: rotateX(20deg);
+    position: absolute;
+    background-color: #EE3840;
+    left: -60px;
+}
+
+.conclusion-img-grid>div>p {
+    text-align: justify;
+    font-family: 'Nunito_regular';
+    font-size: 18px;
+}
+
+.dashed-border {
+    position: inherit;
+    margin-top: 3.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .conclusion-img-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .conclusion-section {
+        padding: 0px 0px 40px 0px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .conclusion-img-grid>div>p {
+        text-align: left;
+        font-size: 16px;
+    }
+}
+
+.tab-modules {
+    position: absolute;
+    top: 40%;
+    right: -75px;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+
+
+.tab-modules>a {
+    margin: 0px 10px;
+    text-decoration: none;
+    font-family: 'Nunito_SemiBold';
+    color: #29267E;
+    font-size: 18px;
+    transition: .3s ease-in-out;
+    border-bottom: 4px solid #273581;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+
+.tab-modules>.low-op{
+    color: #D0D9F6;
+    border-bottom: 4px solid #D0D9F6;
+}
+
+.tab-modules>a:hover{
+    color: #29267E;
+    border-bottom: 4px solid #273581;
+}
+
+@media screen and (max-width: 992px) {
+    .tab-modules {
+        top: 20%;
+        right: -105px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tab-modules {
+        display: none;
+    }
+}
+
+/* conclusion section ends here */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div id="schedule" class="schedule-a-call">
+        <div class="dropdowns">
+            <input class="text-box" type="text" placeholder="Hire a UI Designer" readonly>
+            <div class="options">
+                <div onclick="show('Hire a UI Designer')">
+                    Hire a UI Designer
+                </div>
+                <div onclick="show('Get a Professional Website for my business')">
+                    Get a Professional Website for my business
+                </div>
+                <div onclick="show('Develop a Custom Web Application')">
+                    Develop a Custom Web Application
+                </div>
+                <div onclick="show('Develop a Mobile App')">
+                    Develop a Mobile App
+                </div>
+                <div onclick="show('SEO to grow your business')">
+                    SEO to grow your business
+                </div>
+                <div onclick="show('Website Maintenance')">
+                    Website Maintenance
+                </div>
+                <div onclick="show('Something else...')">
+                    Something else...
+                </div>
+            </div>
+        </div>
+        <div>
+            <a>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Schedule a
+                    call</button>
+            </a>
+        </div>
+    </div>
+    <script src="../JS/Schedule-Script.js"></script>
+</body>
+
+</html>
